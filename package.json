@@ -1,0 +1,245 @@
+{
+  "name": "cadub",
+  "displayName": "cadub",
+  "description": "make it easier to add speaker id",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "keybindings": [
+      {
+        "command": "cadub.setspeaker.m1",
+        "key": "ctrl+1",
+        "mac": "ctrl+1",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m2",
+        "key": "ctrl+2",
+        "mac": "ctrl+2",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m3",
+        "key": "ctrl+3",
+        "mac": "ctrl+3",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m4",
+        "key": "ctrl+4",
+        "mac": "ctrl+4",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m5",
+        "key": "ctrl+5",
+        "mac": "ctrl+5",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m6",
+        "key": "ctrl+6",
+        "mac": "ctrl+6",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m7",
+        "key": "ctrl+7",
+        "mac": "ctrl+7",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m8",
+        "key": "ctrl+8",
+        "mac": "ctrl+8",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m9",
+        "key": "ctrl+9",
+        "mac": "ctrl+9",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.m10",
+        "key": "ctrl+10",
+        "mac": "ctrl+10",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f1",
+        "key": "alt+1",
+        "mac": "cmd+1",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f2",
+        "key": "alt+2",
+        "mac": "cmd+2",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f3",
+        "key": "alt+3",
+        "mac": "cmd+3",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f4",
+        "key": "alt+4",
+        "mac": "cmd+4",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f5",
+        "key": "alt+5",
+        "mac": "cmd+5",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f6",
+        "key": "alt+6",
+        "mac": "cmd+6",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f7",
+        "key": "alt+7",
+        "mac": "cmd+7",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f8",
+        "key": "alt+8",
+        "mac": "cmd+8",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f9",
+        "key": "alt+9",
+        "mac": "cmd+9",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "cadub.setspeaker.f10",
+        "key": "alt+10",
+        "mac": "cmd+10",
+        "when": "editorTextFocus"
+      }
+    ],
+    "commands": [
+      {
+        "command": "cadub.setspeaker.m1",
+        "title": "Set male 1"
+      },
+      {
+        "command": "cadub.setspeaker.m2",
+        "title": "Set male 2"
+      },
+      {
+        "command": "cadub.setspeaker.m3",
+        "title": "Set male 3"
+      },
+      {
+        "command": "cadub.setspeaker.m4",
+        "title": "Set male 4"
+      },
+      {
+        "command": "cadub.setspeaker.m5",
+        "title": "Set male 5"
+      },
+      {
+        "command": "cadub.setspeaker.m6",
+        "title": "Set male 6"
+      },
+      {
+        "command": "cadub.setspeaker.m7",
+        "title": "Set male 7"
+      },
+      {
+        "command": "cadub.setspeaker.m8",
+        "title": "Set male 8"
+      },
+      {
+        "command": "cadub.setspeaker.m9",
+        "title": "Set male 9"
+      },
+      {
+        "command": "cadub.setspeaker.m10",
+        "title": "Set male 10"
+      },
+      {
+        "command": "cadub.setspeaker.f1",
+        "title": "Set female 1"
+      },
+      {
+        "command": "cadub.setspeaker.f2",
+        "title": "Set female 2"
+      },
+      {
+        "command": "cadub.setspeaker.f3",
+        "title": "Set female 3"
+      },
+      {
+        "command": "cadub.setspeaker.f4",
+        "title": "Set female 4"
+      },
+      {
+        "command": "cadub.setspeaker.f5",
+        "title": "Set female 5"
+      },
+      {
+        "command": "cadub.setspeaker.f6",
+        "title": "Set female 6"
+      },
+      {
+        "command": "cadub.setspeaker.f7",
+        "title": "Set female 7"
+      },
+      {
+        "command": "cadub.setspeaker.f8",
+        "title": "Set female 8"
+      },
+      {
+        "command": "cadub.setspeaker.f9",
+        "title": "Set female 9"
+      },
+      {
+        "command": "cadub.setspeaker.f10",
+        "title": "Set female 10"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.92.0",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.11.0",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.4.0"
+  }
+}

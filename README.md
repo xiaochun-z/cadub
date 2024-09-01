@@ -1,0 +1,1 @@
+a vscode extension to show how to replace text/ bind shortcut
